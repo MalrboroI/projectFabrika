@@ -1,0 +1,31 @@
+@import "./variables";
+@import "./mixins";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app__paper {
+  padding: 24px;
+  margin-top: 24px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.app__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}

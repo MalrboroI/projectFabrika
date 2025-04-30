@@ -1,0 +1,15 @@
+@mixin button-primary {
+  background-color: $primary-color;
+  color: white;
+  border-radius: $border-radius;
+  text-transform: none;
+  padding: 8px 16px;
+
+  &:hover {
+    background-color: $primary-color, 10%;
+  }
+
+  &:disabled {
+    background-color: $primary-color, 30%;
+  }
+}

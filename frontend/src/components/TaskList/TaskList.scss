@@ -1,0 +1,51 @@
+@import "../../globalStyles/variables";
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.task-list__item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-list__label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.task-list__checkbox {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  accent-color: #1976d2;
+}
+
+.task-list__text {
+  font-size: 16px;
+}
+
+.task-list__text--completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.task-list__loading,
+.task-list__empty {
+  padding: 12px 0;
+  color: #777;
+  font-size: 16px;
+}
+
+.taskList {
+  &__text {
+    &_completed {
+      text-decoration: line-through;
+      color: #888;
+    }
+  }
+}
